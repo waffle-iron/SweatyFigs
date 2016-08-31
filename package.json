@@ -1,0 +1,22 @@
+{
+  "name": "sweatyfigs",
+  "version": "0.0.1",
+  "description": "The sweatiest of the figs stuff.",
+  "main": "server/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SweatyFigs/SweatyFigs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SweatyFigs/SweatyFigs/issues"
+  },
+  "homepage": "https://github.com/SweatyFigs/SweatyFigs#readme"
+}
