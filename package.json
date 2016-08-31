@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/SweatyFigs/SweatyFigs/issues"
   },
-  "homepage": "https://github.com/SweatyFigs/SweatyFigs#readme"
+  "homepage": "https://github.com/SweatyFigs/SweatyFigs#readme",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
 }
