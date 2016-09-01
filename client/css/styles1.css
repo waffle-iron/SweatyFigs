@@ -1,0 +1,14 @@
+.header {
+	padding-top: 5cm;
+	padding-bottom: 5cm;
+	background-color: #eee;
+}
+
+.foodly {
+	/* add in description */
+	color: #4db6ac;
+}
+
+.desc {
+	font-size: 15px;
+}

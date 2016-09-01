@@ -4,11 +4,29 @@
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="./css/styles1.css"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     </head>
+
+    <!-- default nav-bar template to be applied across other views -->
+
+    <!-- ** note: links still need to be changed ** -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Fridgely</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- the view -->
+    <div ng-view></div>
 
     <body>
       <!--Import jQuery before materialize.js-->
