@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/SweatyFigs/SweatyFigs.png?label=ready&title=Ready)](https://waffle.io/SweatyFigs/SweatyFigs)
 # SweatyFigs
 
 App-Name: 
