@@ -5,7 +5,7 @@ angular.module('fridegly.search', [])
 
     $scope.data.ingredients = [];
 
-    $scope.sendIngredients = function () {
+    $scope.storeIngredients = function () {
       Search.ingredients = $scope.data.ingredients;
     };
 
