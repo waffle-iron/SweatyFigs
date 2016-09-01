@@ -1,5 +1,5 @@
-angular.module('fridgely', [])
-	.controller('fridgely.landingPageController', function($scope) {
+angular.module('fridgely.landing', [])
+	.controller('LandingPageController', function($scope) {
 		// title
 		$scope.LPtext = {};
 		$scope.LPtext.title = 'fridgely';
