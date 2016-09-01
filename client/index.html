@@ -10,6 +10,20 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
+    <!-- default nav-bar template to be applied across other views -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Fridge App Name</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- the view -->
+    <div ng-view></div>
+
     <body>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
