@@ -1,0 +1,14 @@
+  <!-- TESTING CODE FOR THE LANDINGPAGE -->
+<div id='landingPage' ng-controller='fridgely.landingPageController'>
+  <div class = 'jumbotron'>
+    <h1 class="valign center-align header">{{ LPtext.title }}</h1>
+
+    <div class='valign center-align desc' ng-repeat='text in LPtext.descriptions'>
+      <p> {{ text }} </p>
+    </div>
+        
+    <!--<p class='valign center-align desc'>Be food-savy.</p>
+    <p class='valign center-align desc'>Act fridge-friendly.</p>
+    <p class='valign center-align desc'>Use <strong class='foodly'>{{fridgely}}</strong></p>-->
+  </div>
+</div>
