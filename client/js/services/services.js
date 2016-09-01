@@ -6,7 +6,7 @@ angular.module('fridgely.services', [])
      * @desc Given a list of ingredients, send those ingredients to our server, and get a list 
      *   of recipes as a response. 
      * @param {???} ingredients - A list of ingredients to post to the server. 
-     * @returns {Promise.???} Return a promist containing a list of ingredientes. 
+     * @returns {Promise.???} Return a promise containing a list of ingredientes. 
      */
     var sendIngredients = function(ingredients) {
       return $http({
