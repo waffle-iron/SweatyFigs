@@ -11,7 +11,7 @@ angular.module('fridgely.services', [])
     var sendIngredients = function(ingredients) {
       return $http({
         method: 'POST',
-        url: '/api/search',
+        url: '/api/recipes',
         data: ingredients
       }).then(function(res) {
         return res.data;
