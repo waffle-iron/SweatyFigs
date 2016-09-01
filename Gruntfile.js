@@ -9,6 +9,12 @@ module.exports = function(grunt) {
         },
         src: ['test/**/*.js']
       }
+    },
+
+    nodemon: {
+      dev: {
+        script: 'server/server.js'
+      }
     }
   });
 
@@ -17,6 +23,11 @@ module.exports = function(grunt) {
   ////////////////////////////////////
 
   grunt.loadNpmTasks('grunt-mocha-test');
+  grunt.loadNpmTasks('grunt-nodemon');
+
+  grunt.registerTask('start', [
+    'nodemon'
+  ]);
 
   grunt.registerTask('test', [
     'mochaTest'
